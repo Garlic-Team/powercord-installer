@@ -29,11 +29,12 @@
 
         /* Primary backgrounds */
         --bg1: #040405;
-        --bg2: #242831;
-        --bg2-alt: #1d1f28;
+        --bg2: #21242f;
+        --bg2-alt: #202028;
         --bg3: #14151b;
         --bg3-alt: #191a21;
         --bg4: #3b3d51;
+        --titlebar: #2b2e3c;
 
         /* Text Colors */
         --text-light: #f1f1f1;
@@ -147,10 +148,8 @@
         background-repeat: repeat;
         background-position: center;
         z-index: -1;
-        opacity: 0.35;
+        opacity: 0.28;
         pointer-events: none;
-        mask: radial-gradient(transparent, #000);
-        -webkit-mask: radial-gradient(transparent, #000);
     }
 
     :global(.page) {
