@@ -46,7 +46,7 @@
 
 <style>
     .titlebar {
-        background-color: var(--bg2);
+        background-color: var(--titlebar);
         color: white;
         height: 28px;
         display: flex;
